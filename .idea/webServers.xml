@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8f8ebe23-586a-42e5-8633-862de427360d" name="IOT" url="http://iot.sg-z.com">
+        <fileTransfer host="iot.sg-z.com" port="22" rootFolder="/Motionlife" accessType="SFTP" password="df9fdf9edf9ddf9bdfe7dfc5dfdedfc3dfc5dfc4dfc6dfc3dfccdfcf" username="Administrator">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

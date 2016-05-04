@@ -1,0 +1,6 @@
+{
+  "uri": "https://api.weixin.qq.com/cgi-bin/menu/create?access_token\u003dQce6WGldt20C08FbYzIQsaM4rz9enu4og80rbvg2vQme-NriMzoamujLtCC9WhZFxkPIy1S4MEV_okC2b9QAFROjpIUlJUqzepqQpiDwAocGZGdAIASLS",
+  "method": "POST",
+  "body": "{\n    \"button\":[\n    {\n        \"name\":\"设备配置\",\n        \"sub_button\":[\n        {\n            \"type\":\"view\",\n            \"name\":\"WIFI配置\",\n            \"url\":\"http://www.sg-z.com\"\n        },\n        {\n            \"type\":\"view\",\n            \"name\":\"指纹管理\",\n            \"url\":\"http://iot.sg-z.com\"\n        }]\n    },\n    {\n         \"name\":\"钥匙查询\",\n        \"sub_button\":[\n        {\n            \"type\":\"click\",\n            \"name\":\"状态查询\",\n            \"key\":\"SMART_KEY_QUERY\"\n        },\n        {\n            \"type\":\"click\",\n            \"name\":\"钥匙追回\",\n            \"key\":\"SMART_KEY_TRACK\"\n        }]    \n    }]\n }",
+  "headers": {}
+}
